@@ -3,6 +3,7 @@ class diff:
         self.__elements = a
     def comp(self):
         self.max = 0
+	print("hi")
         for i in range(len(a)):
             for j in range(i+1,len(a)):
                 temp = abs(a[i]-a[j])
